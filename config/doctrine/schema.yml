@@ -1,0 +1,14 @@
+JobeetAddresses:
+  actAs: { Timestampable: ~ }
+  columns:
+    title:    { type: varchar(255), notnull: true}
+    x:        { type: float}
+    y:        { type: float}
+
+JobeetRoutes:
+  actAs: { Timestampable: ~ }
+  columns:
+    price:        { type: decimal, notnull: true}
+    address_id_a: { type: integer}
+    address_id_b: { type: integer}
+
