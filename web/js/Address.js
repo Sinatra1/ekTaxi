@@ -81,6 +81,7 @@ $(document).ready(function() {
                 var distance = router.getLength();
                 var cost = (distance*routePrice/1000).toFixed(2);
 
+                $resultDiv.html('');
                 $resultDiv.append($('<div>').html('Расстояние маршрута '+distance+" м."));
                 $resultDiv.append($('<div>').html('Стоимость поездки '+cost+" р."));
             });
