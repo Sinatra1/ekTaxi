@@ -79,7 +79,7 @@ $(document).ready(function() {
         ymaps.route([arrayAddresses[0]['point'], arrayAddresses[1]['point']])
             .then(function (router) {
                 var distance = router.getLength();
-                var cost = distance*routePrice;
+                var cost = (distance*routePrice/1000).toFixed(2);
 
                 $resultDiv.append($('<div>').html('Расстояние маршрута '+distance+" м."));
                 $resultDiv.append($('<div>').html('Стоимость поездки '+cost+" р."));

@@ -24,6 +24,7 @@ class defaultActions extends sfActions
    */
   public function executeIndex()
   {
+      $this->redirect("http://".$this->getContext()->getRequest()->getHost().'/frontend_dev.php/routes');
   }
 
   /**

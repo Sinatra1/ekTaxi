@@ -9048,3 +9048,178 @@ Jul 07 18:37:46 symfony [info] {sfWebDebugLogger} Action "addresses/newRoute" 11
 Jul 07 18:37:46 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (4)
 Jul 07 18:37:46 symfony [info] {sfWebDebugLogger} View "None" for "addresses/newRoute" 0.01 ms (1)
 Jul 07 18:37:46 symfony [info] {sfWebResponse} Send content (17 o)
+Jul 08 10:38:54 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /routes with parameters array (  'module' => 'routes',  'action' => 'index',)
+Jul 08 10:38:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 10:38:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 10:38:54 symfony [info] {routesActions} Call "routesActions->executeIndex()"
+Jul 08 10:38:54 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 08 10:38:54 symfony [info] {Doctrine_Connection_Mysql} query : SELECT j.id AS j__id, j.price AS j__price, j.address_id_a AS j__address_id_a, j.address_id_b AS j__address_id_b, j.created_at AS j__created_at, j.updated_at AS j__updated_at FROM jobeet_routes j - ()
+Jul 08 10:38:54 symfony [info] {sfPHPView} Render "/home/sfprojects/jobeet/apps/frontend/modules/routes/templates/indexSuccess.php"
+Jul 08 10:38:54 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/jobeet/apps/frontend/templates/layout.php"
+Jul 08 10:38:54 symfony [info] {sfPHPView} Render "/home/sfprojects/jobeet/apps/frontend/templates/layout.php"
+Jul 08 10:38:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 10:38:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 10:38:54 symfony [info] {sfWebDebugLogger} Configuration 1.03 ms (9)
+Jul 08 10:38:54 symfony [info] {sfWebDebugLogger} Factories 163.49 ms (1)
+Jul 08 10:38:54 symfony [info] {sfWebDebugLogger} Action "routes/index" 65.97 ms (1)
+Jul 08 10:38:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Jul 08 10:38:54 symfony [info] {sfWebDebugLogger} View "Success" for "routes/index" 33.22 ms (1)
+Jul 08 10:38:54 symfony [info] {sfWebResponse} Send content (64766 o)
+Jul 08 10:42:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /routes with parameters array (  'module' => 'routes',  'action' => 'index',)
+Jul 08 10:42:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 10:42:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 10:42:59 symfony [info] {routesActions} Call "routesActions->executeIndex()"
+Jul 08 10:42:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 08 10:42:59 symfony [info] {Doctrine_Connection_Mysql} query : SELECT j.id AS j__id, j.price AS j__price, j.address_id_a AS j__address_id_a, j.address_id_b AS j__address_id_b, j.created_at AS j__created_at, j.updated_at AS j__updated_at FROM jobeet_routes j - ()
+Jul 08 10:42:59 symfony [info] {sfPHPView} Render "/home/sfprojects/jobeet/apps/frontend/modules/routes/templates/indexSuccess.php"
+Jul 08 10:42:59 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/jobeet/apps/frontend/templates/layout.php"
+Jul 08 10:42:59 symfony [info] {sfPHPView} Render "/home/sfprojects/jobeet/apps/frontend/templates/layout.php"
+Jul 08 10:42:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 10:42:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 10:42:59 symfony [info] {sfWebDebugLogger} Configuration 0.51 ms (9)
+Jul 08 10:42:59 symfony [info] {sfWebDebugLogger} Factories 10.80 ms (1)
+Jul 08 10:42:59 symfony [info] {sfWebDebugLogger} Action "routes/index" 18.33 ms (1)
+Jul 08 10:42:59 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Jul 08 10:42:59 symfony [info] {sfWebDebugLogger} View "Success" for "routes/index" 6.95 ms (1)
+Jul 08 10:42:59 symfony [info] {sfWebResponse} Send content (64797 o)
+Jul 08 10:43:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /routes with parameters array (  'module' => 'routes',  'action' => 'index',)
+Jul 08 10:43:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 10:43:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 10:43:13 symfony [info] {routesActions} Call "routesActions->executeIndex()"
+Jul 08 10:43:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 08 10:43:13 symfony [info] {Doctrine_Connection_Mysql} query : SELECT j.id AS j__id, j.price AS j__price, j.address_id_a AS j__address_id_a, j.address_id_b AS j__address_id_b, j.created_at AS j__created_at, j.updated_at AS j__updated_at FROM jobeet_routes j - ()
+Jul 08 10:43:13 symfony [info] {sfPHPView} Render "/home/sfprojects/jobeet/apps/frontend/modules/routes/templates/indexSuccess.php"
+Jul 08 10:43:13 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/jobeet/apps/frontend/templates/layout.php"
+Jul 08 10:43:13 symfony [info] {sfPHPView} Render "/home/sfprojects/jobeet/apps/frontend/templates/layout.php"
+Jul 08 10:43:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 10:43:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 10:43:13 symfony [info] {sfWebDebugLogger} Configuration 0.46 ms (9)
+Jul 08 10:43:13 symfony [info] {sfWebDebugLogger} Factories 10.24 ms (1)
+Jul 08 10:43:13 symfony [info] {sfWebDebugLogger} Action "routes/index" 17.51 ms (1)
+Jul 08 10:43:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Jul 08 10:43:13 symfony [info] {sfWebDebugLogger} View "Success" for "routes/index" 6.55 ms (1)
+Jul 08 10:43:13 symfony [info] {sfWebResponse} Send content (64797 o)
+Jul 08 10:44:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /routes/edit/id/2 with parameters array (  'module' => 'routes',  'action' => 'edit',  'id' => '2',)
+Jul 08 10:44:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 10:44:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 10:44:59 symfony [info] {routesActions} Call "routesActions->executeEdit()"
+Jul 08 10:44:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 08 10:44:59 symfony [info] {Doctrine_Connection_Statement} execute : SELECT j.id AS j__id, j.price AS j__price, j.address_id_a AS j__address_id_a, j.address_id_b AS j__address_id_b, j.created_at AS j__created_at, j.updated_at AS j__updated_at FROM jobeet_routes j WHERE (j.id = ?) LIMIT 1 - (2)
+Jul 08 10:44:59 symfony [info] {sfPHPView} Render "/home/sfprojects/jobeet/apps/frontend/modules/routes/templates/editSuccess.php"
+Jul 08 10:44:59 symfony [info] {sfPartialView} Render "/home/sfprojects/jobeet/apps/frontend/modules/routes/templates/_price.php"
+Jul 08 10:44:59 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/jobeet/apps/frontend/templates/layout.php"
+Jul 08 10:44:59 symfony [info] {sfPHPView} Render "/home/sfprojects/jobeet/apps/frontend/templates/layout.php"
+Jul 08 10:44:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 10:44:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 10:44:59 symfony [info] {sfWebDebugLogger} Configuration 0.43 ms (9)
+Jul 08 10:44:59 symfony [info] {sfWebDebugLogger} Factories 10.27 ms (1)
+Jul 08 10:44:59 symfony [info] {sfWebDebugLogger} Action "routes/edit" 185.40 ms (1)
+Jul 08 10:44:59 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Jul 08 10:44:59 symfony [info] {sfWebDebugLogger} View "Success" for "routes/edit" 88.06 ms (1)
+Jul 08 10:44:59 symfony [info] {sfWebDebugLogger} Partial "routes/_price" 20.88 ms (1)
+Jul 08 10:44:59 symfony [info] {sfWebResponse} Send content (75501 o)
+Jul 08 10:45:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /addresses/new/routeId/2 with parameters array (  'module' => 'addresses',  'action' => 'new',  'routeId' => '2',)
+Jul 08 10:45:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 10:45:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 10:45:05 symfony [info] {addressesActions} Call "addressesActions->executeNew()"
+Jul 08 10:45:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 08 10:45:05 symfony [info] {Doctrine_Connection_Statement} execute : SELECT j.id AS j__id, j.price AS j__price, j.address_id_a AS j__address_id_a, j.address_id_b AS j__address_id_b, j.created_at AS j__created_at, j.updated_at AS j__updated_at FROM jobeet_routes j WHERE (j.id = ?) LIMIT 1 - (2)
+Jul 08 10:45:05 symfony [info] {sfPHPView} Render "/home/sfprojects/jobeet/apps/frontend/modules/addresses/templates/newSuccess.php"
+Jul 08 10:45:05 symfony [info] {sfPartialView} Render "/home/sfprojects/jobeet/apps/frontend/modules/addresses/templates/_points.php"
+Jul 08 10:45:05 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/jobeet/apps/frontend/templates/layout.php"
+Jul 08 10:45:05 symfony [info] {sfPHPView} Render "/home/sfprojects/jobeet/apps/frontend/templates/layout.php"
+Jul 08 10:45:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 10:45:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 10:45:05 symfony [info] {sfWebDebugLogger} Configuration 0.48 ms (9)
+Jul 08 10:45:05 symfony [info] {sfWebDebugLogger} Factories 10.12 ms (1)
+Jul 08 10:45:05 symfony [info] {sfWebDebugLogger} Action "addresses/new" 54.53 ms (1)
+Jul 08 10:45:05 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Jul 08 10:45:05 symfony [info] {sfWebDebugLogger} View "Success" for "addresses/new" 5.68 ms (1)
+Jul 08 10:45:05 symfony [info] {sfWebDebugLogger} Partial "addresses/_points" 0.68 ms (1)
+Jul 08 10:45:05 symfony [info] {sfWebResponse} Send content (75063 o)
+Jul 08 10:45:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /addresses/newRoute with parameters array (  'module' => 'addresses',  'action' => 'newRoute',)
+Jul 08 10:45:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 10:45:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 10:45:13 symfony [info] {addressesActions} Call "addressesActions->executeNewRoute()"
+Jul 08 10:45:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 08 10:45:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT j.id AS j__id, j.price AS j__price, j.address_id_a AS j__address_id_a, j.address_id_b AS j__address_id_b, j.created_at AS j__created_at, j.updated_at AS j__updated_at FROM jobeet_routes j WHERE (j.id = ?) LIMIT 1 - (2)
+Jul 08 10:45:13 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO jobeet_addresses (title, x, y, created_at, updated_at) VALUES (?, ?, ?, ?, ?) - (микрорайон Эльмаш, Екатеринбург, Свердловская область, Россия улица Бабушкина, 45, 60.617013, 56.892787, 2014-07-08 10:45:13, 2014-07-08 10:45:13)
+Jul 08 10:45:13 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO jobeet_addresses (title, x, y, created_at, updated_at) VALUES (?, ?, ?, ?, ?) - (микрорайон Уралмаш, Екатеринбург, Свердловская область, Россия улица Индустрии, 52, 60.600313, 56.899586, 2014-07-08 10:45:13, 2014-07-08 10:45:13)
+Jul 08 10:45:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 10:45:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 10:45:13 symfony [info] {sfWebDebugLogger} Configuration 0.36 ms (8)
+Jul 08 10:45:13 symfony [info] {sfWebDebugLogger} Factories 9.85 ms (1)
+Jul 08 10:45:13 symfony [info] {sfWebDebugLogger} Action "addresses/newRoute" 133.15 ms (1)
+Jul 08 10:45:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (4)
+Jul 08 10:45:13 symfony [info] {sfWebDebugLogger} View "None" for "addresses/newRoute" 0.01 ms (1)
+Jul 08 10:45:13 symfony [info] {sfWebResponse} Send content (18 o)
+Jul 08 10:47:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /addresses/new/routeId/2 with parameters array (  'module' => 'addresses',  'action' => 'new',  'routeId' => '2',)
+Jul 08 10:47:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 10:47:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 10:47:08 symfony [info] {addressesActions} Call "addressesActions->executeNew()"
+Jul 08 10:47:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 08 10:47:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT j.id AS j__id, j.price AS j__price, j.address_id_a AS j__address_id_a, j.address_id_b AS j__address_id_b, j.created_at AS j__created_at, j.updated_at AS j__updated_at FROM jobeet_routes j WHERE (j.id = ?) LIMIT 1 - (2)
+Jul 08 10:47:08 symfony [info] {sfPHPView} Render "/home/sfprojects/jobeet/apps/frontend/modules/addresses/templates/newSuccess.php"
+Jul 08 10:47:08 symfony [info] {sfPartialView} Render "/home/sfprojects/jobeet/apps/frontend/modules/addresses/templates/_points.php"
+Jul 08 10:47:08 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/jobeet/apps/frontend/templates/layout.php"
+Jul 08 10:47:08 symfony [info] {sfPHPView} Render "/home/sfprojects/jobeet/apps/frontend/templates/layout.php"
+Jul 08 10:47:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 10:47:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 10:47:08 symfony [info] {sfWebDebugLogger} Configuration 0.46 ms (9)
+Jul 08 10:47:08 symfony [info] {sfWebDebugLogger} Factories 10.50 ms (1)
+Jul 08 10:47:08 symfony [info] {sfWebDebugLogger} Action "addresses/new" 24.64 ms (1)
+Jul 08 10:47:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Jul 08 10:47:08 symfony [info] {sfWebDebugLogger} View "Success" for "addresses/new" 5.16 ms (1)
+Jul 08 10:47:08 symfony [info] {sfWebDebugLogger} Partial "addresses/_points" 0.55 ms (1)
+Jul 08 10:47:08 symfony [info] {sfWebResponse} Send content (75094 o)
+Jul 08 10:47:27 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /addresses/newRoute with parameters array (  'module' => 'addresses',  'action' => 'newRoute',)
+Jul 08 10:47:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 10:47:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 10:47:27 symfony [info] {addressesActions} Call "addressesActions->executeNewRoute()"
+Jul 08 10:47:27 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 08 10:47:27 symfony [info] {Doctrine_Connection_Statement} execute : SELECT j.id AS j__id, j.price AS j__price, j.address_id_a AS j__address_id_a, j.address_id_b AS j__address_id_b, j.created_at AS j__created_at, j.updated_at AS j__updated_at FROM jobeet_routes j WHERE (j.id = ?) LIMIT 1 - (2)
+Jul 08 10:47:27 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO jobeet_addresses (title, x, y, created_at, updated_at) VALUES (?, ?, ?, ?, ?) - (микрорайон Эльмаш, Екатеринбург, Свердловская область, Россия улица Бабушкина, 45, 60.617013, 56.892787, 2014-07-08 10:47:27, 2014-07-08 10:47:27)
+Jul 08 10:47:27 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO jobeet_addresses (title, x, y, created_at, updated_at) VALUES (?, ?, ?, ?, ?) - (микрорайон Уралмаш, Екатеринбург, Свердловская область, Россия улица Индустрии, 52, 60.600313, 56.899586, 2014-07-08 10:47:27, 2014-07-08 10:47:27)
+Jul 08 10:47:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 10:47:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 10:47:27 symfony [info] {sfWebDebugLogger} Configuration 0.35 ms (8)
+Jul 08 10:47:27 symfony [info] {sfWebDebugLogger} Factories 9.86 ms (1)
+Jul 08 10:47:27 symfony [info] {sfWebDebugLogger} Action "addresses/newRoute" 101.95 ms (1)
+Jul 08 10:47:27 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (4)
+Jul 08 10:47:27 symfony [info] {sfWebDebugLogger} View "None" for "addresses/newRoute" 0.01 ms (1)
+Jul 08 10:47:27 symfony [info] {sfWebResponse} Send content (18 o)
+Jul 08 10:48:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /addresses/new/routeId/2 with parameters array (  'module' => 'addresses',  'action' => 'new',  'routeId' => '2',)
+Jul 08 10:48:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 10:48:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 10:48:56 symfony [info] {addressesActions} Call "addressesActions->executeNew()"
+Jul 08 10:48:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 08 10:48:56 symfony [info] {Doctrine_Connection_Statement} execute : SELECT j.id AS j__id, j.price AS j__price, j.address_id_a AS j__address_id_a, j.address_id_b AS j__address_id_b, j.created_at AS j__created_at, j.updated_at AS j__updated_at FROM jobeet_routes j WHERE (j.id = ?) LIMIT 1 - (2)
+Jul 08 10:48:56 symfony [info] {sfPHPView} Render "/home/sfprojects/jobeet/apps/frontend/modules/addresses/templates/newSuccess.php"
+Jul 08 10:48:56 symfony [info] {sfPartialView} Render "/home/sfprojects/jobeet/apps/frontend/modules/addresses/templates/_points.php"
+Jul 08 10:48:56 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/jobeet/apps/frontend/templates/layout.php"
+Jul 08 10:48:56 symfony [info] {sfPHPView} Render "/home/sfprojects/jobeet/apps/frontend/templates/layout.php"
+Jul 08 10:48:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 10:48:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 10:48:56 symfony [info] {sfWebDebugLogger} Configuration 0.50 ms (9)
+Jul 08 10:48:56 symfony [info] {sfWebDebugLogger} Factories 19.21 ms (1)
+Jul 08 10:48:56 symfony [info] {sfWebDebugLogger} Action "addresses/new" 27.71 ms (1)
+Jul 08 10:48:56 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Jul 08 10:48:56 symfony [info] {sfWebDebugLogger} View "Success" for "addresses/new" 7.22 ms (1)
+Jul 08 10:48:56 symfony [info] {sfWebDebugLogger} Partial "addresses/_points" 0.77 ms (1)
+Jul 08 10:48:56 symfony [info] {sfWebResponse} Send content (75094 o)
+Jul 08 10:49:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /addresses/newRoute with parameters array (  'module' => 'addresses',  'action' => 'newRoute',)
+Jul 08 10:49:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 10:49:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 10:49:01 symfony [info] {addressesActions} Call "addressesActions->executeNewRoute()"
+Jul 08 10:49:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 08 10:49:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT j.id AS j__id, j.price AS j__price, j.address_id_a AS j__address_id_a, j.address_id_b AS j__address_id_b, j.created_at AS j__created_at, j.updated_at AS j__updated_at FROM jobeet_routes j WHERE (j.id = ?) LIMIT 1 - (2)
+Jul 08 10:49:01 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO jobeet_addresses (title, x, y, created_at, updated_at) VALUES (?, ?, ?, ?, ?) - (микрорайон Эльмаш, Екатеринбург, Свердловская область, Россия улица Бабушкина, 45, 60.617013, 56.892787, 2014-07-08 10:49:01, 2014-07-08 10:49:01)
+Jul 08 10:49:01 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO jobeet_addresses (title, x, y, created_at, updated_at) VALUES (?, ?, ?, ?, ?) - (микрорайон Уралмаш, Екатеринбург, Свердловская область, Россия улица Индустрии, 52, 60.600313, 56.899586, 2014-07-08 10:49:01, 2014-07-08 10:49:01)
+Jul 08 10:49:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 10:49:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 10:49:01 symfony [info] {sfWebDebugLogger} Configuration 0.35 ms (8)
+Jul 08 10:49:01 symfony [info] {sfWebDebugLogger} Factories 9.81 ms (1)
+Jul 08 10:49:01 symfony [info] {sfWebDebugLogger} Action "addresses/newRoute" 96.21 ms (1)
+Jul 08 10:49:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (4)
+Jul 08 10:49:01 symfony [info] {sfWebDebugLogger} View "None" for "addresses/newRoute" 0.00 ms (1)
+Jul 08 10:49:01 symfony [info] {sfWebResponse} Send content (18 o)
