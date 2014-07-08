@@ -9858,3 +9858,149 @@ Jul 08 15:07:11 symfony [info] {sfWebDebugLogger} Action "addresses/newRoute" 12
 Jul 08 15:07:11 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (4)
 Jul 08 15:07:11 symfony [info] {sfWebDebugLogger} View "None" for "addresses/newRoute" 0.00 ms (1)
 Jul 08 15:07:11 symfony [info] {sfWebResponse} Send content (18 o)
+Jul 08 15:18:10 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /routes with parameters array (  'module' => 'routes',  'action' => 'index',)
+Jul 08 15:18:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 15:18:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 15:18:10 symfony [info] {routesActions} Call "routesActions->executeIndex()"
+Jul 08 15:18:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Jul 08 15:18:10 symfony [notice] {sfWebDebugLogger}  Notice at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Jul 08 15:18:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:18:10 symfony [err] {Doctrine_Connection_Exception} PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'jobeet'@'localhost' (using password: YES)
+Jul 08 15:18:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:18:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:18:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jul 08 15:18:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:18:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 15:18:10 symfony [info] {sfWebDebugLogger} Configuration 0.41 ms (8)
+Jul 08 15:18:10 symfony [info] {sfWebDebugLogger} Factories 11.60 ms (1)
+Jul 08 15:18:10 symfony [info] {sfWebDebugLogger} Action "routes/index" 104.82 ms (1)
+Jul 08 15:19:41 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /routes with parameters array (  'module' => 'routes',  'action' => 'index',)
+Jul 08 15:19:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 15:19:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 15:19:41 symfony [info] {routesActions} Call "routesActions->executeIndex()"
+Jul 08 15:19:41 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Jul 08 15:19:41 symfony [notice] {sfWebDebugLogger}  Notice at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Jul 08 15:19:41 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:19:41 symfony [err] {Doctrine_Connection_Exception} PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'jobeet'@'localhost' (using password: YES)
+Jul 08 15:19:41 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:19:41 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:19:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jul 08 15:19:41 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:19:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 15:19:41 symfony [info] {sfWebDebugLogger} Configuration 0.39 ms (8)
+Jul 08 15:19:41 symfony [info] {sfWebDebugLogger} Factories 10.89 ms (1)
+Jul 08 15:19:41 symfony [info] {sfWebDebugLogger} Action "routes/index" 53.18 ms (1)
+Jul 08 15:19:45 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /routes with parameters array (  'module' => 'routes',  'action' => 'index',)
+Jul 08 15:19:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 15:19:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 15:19:45 symfony [info] {routesActions} Call "routesActions->executeIndex()"
+Jul 08 15:19:45 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Jul 08 15:19:45 symfony [notice] {sfWebDebugLogger}  Notice at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Jul 08 15:19:45 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:19:45 symfony [err] {Doctrine_Connection_Exception} PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'jobeet'@'localhost' (using password: YES)
+Jul 08 15:19:45 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:19:45 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:19:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jul 08 15:19:45 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:19:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 15:19:45 symfony [info] {sfWebDebugLogger} Configuration 0.40 ms (8)
+Jul 08 15:19:45 symfony [info] {sfWebDebugLogger} Factories 11.65 ms (1)
+Jul 08 15:19:45 symfony [info] {sfWebDebugLogger} Action "routes/index" 62.85 ms (1)
+Jul 08 15:26:42 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /routes with parameters array (  'module' => 'routes',  'action' => 'index',)
+Jul 08 15:26:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 15:26:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 15:26:42 symfony [info] {routesActions} Call "routesActions->executeIndex()"
+Jul 08 15:26:42 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Jul 08 15:26:42 symfony [notice] {sfWebDebugLogger}  Notice at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Jul 08 15:26:42 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:26:42 symfony [err] {Doctrine_Connection_Exception} PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'jobeet'@'localhost' (using password: YES)
+Jul 08 15:26:42 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:26:42 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:26:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jul 08 15:26:42 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:26:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 15:26:42 symfony [info] {sfWebDebugLogger} Configuration 0.41 ms (8)
+Jul 08 15:26:42 symfony [info] {sfWebDebugLogger} Factories 10.86 ms (1)
+Jul 08 15:26:42 symfony [info] {sfWebDebugLogger} Action "routes/index" 53.46 ms (1)
+Jul 08 15:26:43 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /routes with parameters array (  'module' => 'routes',  'action' => 'index',)
+Jul 08 15:26:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 15:26:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 15:26:43 symfony [info] {routesActions} Call "routesActions->executeIndex()"
+Jul 08 15:26:43 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Jul 08 15:26:43 symfony [notice] {sfWebDebugLogger}  Notice at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Jul 08 15:26:43 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:26:43 symfony [err] {Doctrine_Connection_Exception} PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'jobeet'@'localhost' (using password: YES)
+Jul 08 15:26:43 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:26:43 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:26:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jul 08 15:26:43 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:26:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 15:26:43 symfony [info] {sfWebDebugLogger} Configuration 0.46 ms (8)
+Jul 08 15:26:43 symfony [info] {sfWebDebugLogger} Factories 10.66 ms (1)
+Jul 08 15:26:43 symfony [info] {sfWebDebugLogger} Action "routes/index" 48.67 ms (1)
+Jul 08 15:26:46 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /routes with parameters array (  'module' => 'routes',  'action' => 'index',)
+Jul 08 15:26:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 15:26:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 15:26:46 symfony [info] {routesActions} Call "routesActions->executeIndex()"
+Jul 08 15:26:46 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Jul 08 15:26:46 symfony [notice] {sfWebDebugLogger}  Notice at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Jul 08 15:26:46 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:26:46 symfony [err] {Doctrine_Connection_Exception} PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'jobeet'@'localhost' (using password: YES)
+Jul 08 15:26:46 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:26:46 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:26:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jul 08 15:26:46 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:26:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 15:26:46 symfony [info] {sfWebDebugLogger} Configuration 0.43 ms (8)
+Jul 08 15:26:46 symfony [info] {sfWebDebugLogger} Factories 9.99 ms (1)
+Jul 08 15:26:46 symfony [info] {sfWebDebugLogger} Action "routes/index" 58.13 ms (1)
+Jul 08 15:27:07 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /routes with parameters array (  'module' => 'routes',  'action' => 'index',)
+Jul 08 15:27:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 15:27:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 15:27:07 symfony [info] {routesActions} Call "routesActions->executeIndex()"
+Jul 08 15:27:07 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 08 15:27:07 symfony [info] {Doctrine_Connection_Mysql} query : SELECT j.id AS j__id, j.price AS j__price, j.address_id_a AS j__address_id_a, j.address_id_b AS j__address_id_b, j.created_at AS j__created_at, j.updated_at AS j__updated_at FROM jobeet_routes j - ()
+Jul 08 15:27:07 symfony [info] {sfPHPView} Render "/home/sfprojects/jobeet/apps/frontend/modules/routes/templates/indexSuccess.php"
+Jul 08 15:27:07 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/jobeet/apps/frontend/templates/layout.php"
+Jul 08 15:27:07 symfony [info] {sfPHPView} Render "/home/sfprojects/jobeet/apps/frontend/templates/layout.php"
+Jul 08 15:27:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 15:27:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 15:27:07 symfony [info] {sfWebDebugLogger} Configuration 0.66 ms (9)
+Jul 08 15:27:07 symfony [info] {sfWebDebugLogger} Factories 10.42 ms (1)
+Jul 08 15:27:07 symfony [info] {sfWebDebugLogger} Action "routes/index" 24.19 ms (1)
+Jul 08 15:27:07 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Jul 08 15:27:07 symfony [info] {sfWebDebugLogger} View "Success" for "routes/index" 8.37 ms (1)
+Jul 08 15:27:07 symfony [info] {sfWebResponse} Send content (63942 o)
+Jul 08 15:28:05 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /routes with parameters array (  'module' => 'routes',  'action' => 'index',)
+Jul 08 15:28:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 15:28:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 15:28:05 symfony [info] {routesActions} Call "routesActions->executeIndex()"
+Jul 08 15:28:05 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Jul 08 15:28:05 symfony [notice] {sfWebDebugLogger}  Notice at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Jul 08 15:28:05 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:28:05 symfony [err] {Doctrine_Connection_Exception} PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'jobeet'@'localhost' (using password: YES)
+Jul 08 15:28:05 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:28:05 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:28:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jul 08 15:28:05 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/sfprojects/jobeet/lib/vendor/symfony/lib/exception/sfException.class.php:103))
+Jul 08 15:28:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 15:28:05 symfony [info] {sfWebDebugLogger} Configuration 0.44 ms (8)
+Jul 08 15:28:05 symfony [info] {sfWebDebugLogger} Factories 11.22 ms (1)
+Jul 08 15:28:05 symfony [info] {sfWebDebugLogger} Action "routes/index" 52.51 ms (1)
+Jul 08 15:31:04 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /routes with parameters array (  'module' => 'routes',  'action' => 'index',)
+Jul 08 15:31:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 15:31:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 15:31:04 symfony [info] {routesActions} Call "routesActions->executeIndex()"
+Jul 08 15:31:04 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jul 08 15:31:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT j.id AS j__id, j.price AS j__price, j.address_id_a AS j__address_id_a, j.address_id_b AS j__address_id_b, j.created_at AS j__created_at, j.updated_at AS j__updated_at FROM jobeet_routes j - ()
+Jul 08 15:31:04 symfony [info] {sfPHPView} Render "/home/sfprojects/jobeet/apps/frontend/modules/routes/templates/indexSuccess.php"
+Jul 08 15:31:04 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/jobeet/apps/frontend/templates/layout.php"
+Jul 08 15:31:04 symfony [info] {sfPHPView} Render "/home/sfprojects/jobeet/apps/frontend/templates/layout.php"
+Jul 08 15:31:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 15:31:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 15:31:04 symfony [info] {sfWebDebugLogger} Configuration 0.60 ms (9)
+Jul 08 15:31:04 symfony [info] {sfWebDebugLogger} Factories 10.31 ms (1)
+Jul 08 15:31:04 symfony [info] {sfWebDebugLogger} Action "routes/index" 21.79 ms (1)
+Jul 08 15:31:04 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Jul 08 15:31:04 symfony [info] {sfWebDebugLogger} View "Success" for "routes/index" 8.13 ms (1)
+Jul 08 15:31:04 symfony [info] {sfWebResponse} Send content (63942 o)

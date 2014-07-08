@@ -5,7 +5,7 @@
 return array(
 'doctrine' => new sfDoctrineDatabase(array (
   'dsn' => 'mysql:host=localhost;dbname=jobeet',
-  'username' => 'root',
+  'username' => 'jobeet',
   'password' => '1',
   'name' => 'doctrine',
 )),);
