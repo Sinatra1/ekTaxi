@@ -24,6 +24,27 @@ class defaultActions extends sfActions
    */
   public function executeIndex()
   {
+      $waypoints_normalized =
+
+      $parameters = array(
+          'callback' => '',
+          'lang' => 'ru_RU',
+          'rll' => implode('~', $waypoints_normalized),
+          'sco' => 'latlong'
+      );
+
+      $url = sprintf('https://api-maps.yandex.ru/services/route/1.1/route.xml?%s', http_build_query($parameters));
+
+      $ch = curl_init($url);
+      curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+      curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+      curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+
+      $response = curl_exec($ch);
+      curl_close($ch);
+
+      $parsed = json_decode(substr($response, 1, strlen($response) - 3), true);
+
       $this->redirect("http://".$this->getContext()->getRequest()->getHost().'/frontend_dev.php/routes');
   }
 
